@@ -1,5 +1,5 @@
  module "my_vpc" {
- source = "./aws_vpc_module"
+ source = "./modules/vpcmodule"
  my_region = "eu-west-1"
  vpc_cidr = "10.0.0.0/24"
  vpc_name = "Devops_vpc"
